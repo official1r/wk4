@@ -1,0 +1,28 @@
+html{
+    font-size: 20px;
+}
+
+main{
+    background-color: black;
+    color: blue;
+    width: 80%;
+    margin: auto;
+
+    height: 100vh;
+}
+
+  h1{
+      text-align: center;
+      padding: 15px 8px;
+    }
+
+    h2{
+        border-bottom: 10px dashed;
+        margin-bottom: 1em;
+    }
+
+    p{
+       font-size: 2rem;
+       border-left: 5px dashed;
+       border-right: 5px dashed;
+    }
