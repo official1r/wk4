@@ -1,0 +1,78 @@
+.image{
+    width: 700px;
+    height: 400px;
+    background: url(./mount.jpg);
+    background-size: cover;
+    color: transparent;
+    font-size: 4em;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+div{
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(0, 0, 255, 0.65);
+    background: linear-gradient(90deg, green 30%, white 30%), white 65%, green 65%;
+    margin: auto;
+}
+
+h1 span {
+    color: red;
+}
+
+.belgium{
+    background: linear-gradient(90deg, black 30%, yellow 30%, yellow 65%, red 65% );
+}
+
+.japan{
+    width: 500px;
+    height: 400px;
+    background-image: radial-gradient( red 20%, white 30%);
+
+}
+
+.comic{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    color: transparent;
+    background: comic-gradient(yellow 25%, red 25%, red 30%, blue 30%, blue 60%, green 60%, green 80%, moccasin 80% );
+    -webkit-background-clip: text;
+}
+
+.online{
+    height: 700px;
+    height: 400px;
+    background-image: url(background.jpg),url(https://images.unsplash.com/photo-1587500154541-1cafd74f0efc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80)
+    , url(https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80),
+    linear-gradient(90deg, blue, green, yellow) ;
+    background-size: 250px, 150px;
+    background-position: center, top left, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+}
+
+.blend:{
+       width: 700px;
+       height: 400px;
+       background-size: cover;
+       background-image: url(./background.jpg);
+       background-color: rgba(65, 64, 65, 0.878);
+}
+
+.blend:hover{
+     background-blend-mode: overlay;
+     cursor: pointer;
+}
+
+.ghana{
+    width: 700px;
+    height: 400px;
+    background-size: 50px, 600px;
+     background-image: url(./g\ star.jpeg), linear-gradient(180deg, red 30%, yellow 30%, yellow 65%, green 65%);
+     background-repeat: no-repeat;
+     background-position: center;
+}
